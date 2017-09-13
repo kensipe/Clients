@@ -5,10 +5,10 @@ clusters:
     services:
       breed:
         name: pumrpclient:IDTAG
-        deployable: partsunlimitedmrp/clients:IDTAG
+        deployable: kensipe/clients:IDTAG
         ports:
           webport: 8080/http
       scale:
-        cpu: 0.5       
+        cpu: 0.5
         memory: 512MB
         instances: 1
