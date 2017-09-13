@@ -6,7 +6,7 @@ deployed: true
 port: 40100/http
 sticky: null
 virtual_hosts:
-- pumrp.julien.work
+- mrp.ken
 routes:
   pumrpclient:IDPRETAG/pumrpclientIDPRETAG/pumrpclient:IDPRETAG/webport:
     weight: 50%
